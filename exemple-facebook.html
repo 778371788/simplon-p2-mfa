@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>facebook-connexion ou inscription</title>
+        <link rel="stylesheet" href="ex-facebook.css">
+    </head>
+    <body>
+        <div class="titre">
+            <div class="gauche">
+                <img src="image/capture.png" alt="Facebook">
+            </div><!--classe gauche-->
+            <div class="facebook-login">
+                <table>
+                    <tr>
+                        <td>Adresse e-mail ou mobilr</td>
+                        <td>Mot de passe</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" type="number"></td>
+                        <td><input type="password"></td>
+                        <td><input type="submit" value="connexion"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Informations de compte oubliées ?</td>
+                        <td></td>
+                    </tr>
+                </table>
+
+            </div><!--facebook login-->
+
+         </div><!--div pour le titre-->
+            <div class="corps">
+                <div class="corps-left">
+                    <p><strong>Avec facebook,partagez et restez en contact <br>
+                        avec votre entourage</strong></p>
+                        <img src="image/OBaVg52wtTZ.png" alt="facebook">
+                </div><!--corps left-->
+                <div class="corps-right">
+                    <h2><strong>&nbsp;&nbsp;Inscription</h2></strong>
+                    <p>&nbsp;&nbsp;C'est gratruit (et ca le restera toujours)</p>
+                    <form class="formulaire">
+                        <form  method="POST" action="exo1-ges.php"></form>
+                        <input type="text" placeholder="Prenom" />
+                        <input type="text" placeholder="Nom de famille" />
+                        <br>
+                        <br>
+                        <input type="text" id="a" placeholder="Numéro mobile ou e-mail" />
+                        <br>
+                        <br>
+                        <input type="password"  placeholder=" Nouveau mot de passe" />
+                        <p>Date de naissance</p>
+                        <select name="jour">
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="19">19</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                        </select>
+                        <select name="Mois">
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="06">06</option>
+                        </select>
+                        <select name="Année">
+                                <option value="1900">1900</option>
+                                <option value="2000">2000</option>
+                                <option value="2010">2010</option>
+                                <option value="2020">2020</option>
+                        </select>
+                        <br>
+                        <br>
+                        <input type="checkbox" name="Femme" id="b" value ="Femme"><label for="b">Femme</label>
+                        <input type="checkbox" name="Homme" id="c" value ="Homme"><label for="c">Homme</label>
+                        <br>
+                        <br>
+                        <form class="texte">
+                            <p>En appuyant sur Inscription, vous acceptez nos <a href="">conditions <br>
+                                générales</a>  ,notre <a href="">Politique d'utilisations des données</a> , et notre<br>
+                                <a href="">politiques Utilisation des cookies</a> . Vous recevrez peut-être des<br>
+                                notifications par texto de notre part et vous pouvez à tout <br>
+                                moment vous désabonner.</p>
+                        </form><!--texte-->
+                        <br>
+                        <form class="Inscription">
+                            <input type="submit" value="Inscription">
+                        </form><!--inscription-->
+                    </form><!--formulaire-->
+                </div><!--corps right-->
+            </div><!--corps-->
+            
+            </body>
+
+
+
+
+
+
+
+
+</html>
