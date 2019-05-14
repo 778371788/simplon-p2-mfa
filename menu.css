@@ -1,0 +1,34 @@
+body{
+    padding:0px;
+    margin: 0px;
+}
+
+
+#menu-nav{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background-color: rgb(44, 43, 43);
+    left: -200px;
+}
+#menu-nav.active{
+    left: 0px;
+}
+#menu-nav ul li {
+    color: rgba(230,230,230,0.9);
+    list-style: none;
+    padding: 15px 10px;
+    border-bottom: 1px solid rgba(100,100,100, 0.3);
+}
+#menu-nav .bouton{
+    position: absolute;
+    left: 230px;
+    top: 20px;
+}
+#menu-nav .bouton span{
+    display: block;
+    width: 30px;
+    height: 5px;
+    background: rgb(27, 26, 26);
+    margin: 5px 0px;
+}

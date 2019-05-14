@@ -1,0 +1,13 @@
+body{
+    background-color: aliceblue
+}
+.blanche{
+    width: 600px;
+    height: 600px;
+    float: right;
+}
+.allume{
+    width: 150px;
+    height: 150px;
+    float: left;
+}
