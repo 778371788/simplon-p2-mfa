@@ -33,7 +33,7 @@ ERROR 1054 (42S22): Unknown column 'nom_ref' in 'field list'
 
 6-Afficher la liste des apprenants qui ont au moins un contrat
 
-select * from apprenant left join contrat on id_apprenant = contrat.id_apprenant and type_contrat = 'CDI';alter table apprenant modify sexe char(1);
+select * from apprenant left join contrat on id_apprenant = contrat.id_apprenant and situation_professionnelle = 'en poste';
 
 7- Ecrire l’ordre sql qui permet d’ajouter un champ ouvert à la table cohorte de type boolean
 alter table cohorte add ouvert boolean;
